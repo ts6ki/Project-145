@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-plane
+        color="grey"
+        position="0 0 0"
+        rotation="-90 0 0"
+        width="10"
+        length="10"
+      >
+      </a-plane>
+
+      <a-box
+        position="0 0.5 0"
+        depth="0.3"
+        height="0.5"
+        width="0.5"
+        color="green"
+      ></a-box>
+      <a-cylinder position="-1 0.5 0" radius="0.3" height="0.7" color="teal">
+      </a-cylinder>
+
+      <a-cone
+        position="1 0.5 0"
+        color="tomato"
+        radius-bottom="0.4"
+        radius-top="0"
+      >
+      </a-cone>
+      <a-sphere position="-2 0.5 0" radius="0.5" color="navy"></a-sphere>
+
+      <a-torus
+        position="2 0.5 0"
+        radius="0.5"
+        color="gold"
+        rotation="-90 0 0"
+        height="0.3"
+      ></a-torus>
+      <a-octahedron position="3 0.5 0" color="black" radius="0.5">
+      </a-octahedron>
+      <a-dodecahedron position="-3 0.5 0" color="cyan" radius="0.5">
+      </a-dodecahedron>
+    </a-scene>
+  </body>
+</html>
